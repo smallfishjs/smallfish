@@ -1,9 +1,15 @@
 import { IApi } from 'umi-types';
 
-const plugins = [{
-  pluginName: '@umijs/umi-plugin-script',
-  configName: 'script',
-}];
+const plugins = [
+  {
+    pluginName: '@umijs/umi-plugin-script',
+    configName: 'script',
+  },
+  {
+    pluginName: '@umijs/umi-plugin-antd',
+    configName: 'antd',
+  },
+];
 
 export default (api: IApi) => {
   const { config } = api;
