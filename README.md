@@ -1,8 +1,10 @@
 # smallfish
 
-developing
+A enterprise-level react application framework based on [UmiJs](https://umijs.org/).
 
-```
+## developing
+
+```shell
 $ yarn
 $ yarn bootstrap
 $ yarn build
