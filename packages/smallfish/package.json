@@ -1,0 +1,13 @@
+{
+  "name": "smallfish",
+  "version": "0.1.0",
+  "bin": {
+    "smallfish": "bin/smallfish.js"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "umi": "^2.6.17",
+    "umi-types": "~0.3.0",
+    "@umijs/umi-plugin-script": "0.1.0"
+  }
+}
