@@ -1,0 +1,15 @@
+.DS_Store
+.vscode
+node_modules
+dist
+coverage
+.nyc_output
+npm-debug.log*
+lerna-debug.log
+.changelog
+manifest.json
+speed-measure.json
+.bigfish
+.umi/
+.umi-production/
+/packages/**/lib
