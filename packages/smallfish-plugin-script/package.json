@@ -1,9 +1,9 @@
 {
-	"name": "@smallfish-plugin/script",
-	"version": "0.1.0",
-	"main": "./lib/index.js",
-	"dependencies": {
-		"umi-plugin-react": "1.8.0-beta.2"
-	},
-	"license": "MIT"
+  "name": "@smallfish-plugin/script",
+  "version": "0.1.0",
+  "main": "./lib/index.js",
+  "dependencies": {
+    "umi-plugin-react": "1.8.0-beta.2"
+  },
+  "license": "MIT"
 }

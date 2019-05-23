@@ -1,8 +1,7 @@
 {
-	"name": "@smallfish-plugin/utils",
-	"version": "0.1.0",
-	"main": "./lib/index.js",
-	"dependencies": {
-	},
-	"license": "MIT"
+  "name": "@smallfish-plugin/utils",
+  "version": "0.1.0",
+  "main": "./lib/index.js",
+  "dependencies": {},
+  "license": "MIT"
 }
