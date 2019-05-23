@@ -4,7 +4,11 @@ const plugins = [
   {
     pluginName: '@smallfish-plugin/script',
     configName: 'script',
-  }, 
+  },
+  {
+    pluginName: '@smallfish-plugin/style',
+    configName: 'style',
+  },
   {
     pluginName: '@smallfish-plugin/antd',
     configName: 'antd',

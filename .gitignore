@@ -13,3 +13,4 @@ speed-measure.json
 .umi/
 .umi-production/
 /packages/**/lib
+yarn-error.log

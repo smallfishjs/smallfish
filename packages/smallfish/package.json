@@ -8,6 +8,8 @@
 	"dependencies": {
 		"@smallfish-plugin/antd": "0.1.0",
 		"@smallfish-plugin/script": "0.1.0",
+		"@smallfish-plugin/style": "0.1.0",
+		"@smallfish-plugin/utils": "0.1.0",
 		"umi": "^2.6.17",
 		"umi-types": "~0.3.0"
 	}
