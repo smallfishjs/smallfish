@@ -21,6 +21,10 @@ const plugins = [
     pluginName: '@smallfish-plugin/request',
     configName: 'request',
   },
+  {
+    pluginName: '@smallfish-plugin/dva',
+    configName: 'dva',
+  },
 ];
 
 export default (api: IApi) => {

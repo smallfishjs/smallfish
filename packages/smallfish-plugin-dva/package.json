@@ -1,0 +1,10 @@
+{
+  "name": "@smallfish-plugin/dva",
+  "version": "0.1.0",
+  "main": "./lib/index.js",
+  "dependencies": {
+    "umi-plugin-dva": "~1.2.1",
+    "umi-types": "~0.3.0"
+  },
+  "license": "MIT"
+}
