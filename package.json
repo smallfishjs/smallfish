@@ -6,6 +6,7 @@
   },
   "license": "MIT",
   "devDependencies": {
+    "git-commit-msg-linter": "^2.2.3",
     "lerna": "^3.13.4",
     "umi-tools": "^0.4.0"
   }

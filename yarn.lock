@@ -4047,6 +4047,13 @@ getpass@^0.1.1:
   dependencies:
     assert-plus "^1.0.0"
 
+git-commit-msg-linter@^2.2.3:
+  version "2.2.3"
+  resolved "https://registry.yarnpkg.com/git-commit-msg-linter/-/git-commit-msg-linter-2.2.3.tgz#bd26d53385dc025a716f1509ea90c4969d8fbb1c"
+  integrity sha512-hTVItlj+9HzQC46Nq6zWzflJF6RRfRYPoLi12xEgatzz2JUVS0cQ4mL5xzRGwrbq6pAKtvdxI8rz1yi9wWdhfQ==
+  dependencies:
+    chalk "^2.4.2"
+
 git-raw-commits@2.0.0:
   version "2.0.0"
   resolved "https://registry.yarnpkg.com/git-raw-commits/-/git-raw-commits-2.0.0.tgz#d92addf74440c14bcc5c83ecce3fb7f8a79118b5"
