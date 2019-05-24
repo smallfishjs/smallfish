@@ -1,0 +1,10 @@
+{
+  "name": "@smallfish-plugin/router",
+  "version": "0.1.0",
+  "main": "./lib/index.js",
+  "dependencies": {
+    "react-router-redux": "^4.0.8",
+    "umi-types": "~0.3.0"
+  },
+  "license": "MIT"
+}

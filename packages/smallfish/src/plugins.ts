@@ -13,6 +13,14 @@ const plugins = [
     pluginName: '@smallfish-plugin/antd',
     configName: 'antd',
   },
+  {
+    pluginName: '@smallfish-plugin/router',
+    configName: 'router',
+  },
+  {
+    pluginName: '@smallfish-plugin/request',
+    configName: 'request',
+  },
 ];
 
 export default (api: IApi) => {

@@ -4,6 +4,10 @@ export default {
       path: '/',
       component: 'IndexPage',
     },
+    {
+      path: '/2',
+      component: 'SubPage',
+    },
   ],
   script: ['https://gw.alipayobjects.com/os/lib/moment/2.24.0/moment.js'],
   style: [
