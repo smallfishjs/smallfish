@@ -18,4 +18,5 @@ export default {
       }
     `,
   ],
+  dva: true,
 };
