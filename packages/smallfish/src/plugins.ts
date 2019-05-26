@@ -1,42 +1,9 @@
 import { IApi } from 'umi-types';
+import config from './config';
 
-const plugins = [
-  {
-    pluginName: '@smallfish-plugin/script',
-    configName: 'script',
-    defaultOptions: false,
-  },
-  {
-    pluginName: '@smallfish-plugin/style',
-    configName: 'style',
-    defaultOptions: false,
-  },
-  {
-    pluginName: '@smallfish-plugin/antd',
-    configName: 'antd',
-    defaultOptions: true,
-  },
-  {
-    pluginName: '@smallfish-plugin/router',
-    configName: 'router',
-    defaultOptions: true,
-  },
-  {
-    pluginName: '@smallfish-plugin/request',
-    configName: 'request',
-    defaultOptions: true,
-  },
-  {
-    pluginName: '@smallfish-plugin/dva',
-    configName: 'dva',
-    defaultOptions: false,
-  },
-  {
-    pluginName: '@smallfish-plugin/lint',
-    configName: 'lint',
-    defaultOptions: true,
-  },
-];
+
+const realConfig = process.env.SMALLFISH_CONFIG ? require(process.env.SMALLFISH_CONFIG) : config;
+const plugins = realConfig.plugins;
 
 export default (api: IApi) => {
   const { config } = api;

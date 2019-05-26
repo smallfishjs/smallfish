@@ -1,0 +1,39 @@
+{
+  "plugins": [
+    {
+      "pluginName": "@smallfish-plugin/script",
+      "configName": "script",
+      "defaultOptions": false
+    },
+    {
+      "pluginName": "@smallfish-plugin/style",
+      "configName": "style",
+      "defaultOptions": false
+    },
+    {
+      "pluginName": "@smallfish-plugin/antd",
+      "configName": "antd",
+      "defaultOptions": true
+    },
+    {
+      "pluginName": "@smallfish-plugin/router",
+      "configName": "router",
+      "defaultOptions": true
+    },
+    {
+      "pluginName": "@smallfish-plugin/request",
+      "configName": "request",
+      "defaultOptions": true
+    },
+    {
+      "pluginName": "@smallfish-plugin/dva",
+      "configName": "dva",
+      "defaultOptions": false
+    },
+    {
+      "pluginName": "@smallfish-plugin/lint",
+      "configName": "lint",
+      "defaultOptions": true
+    }
+  ]
+}
