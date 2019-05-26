@@ -13,6 +13,7 @@
     "@smallfish-plugin/router": "0.1.0",
     "@smallfish-plugin/request": "0.1.0",
     "@smallfish-plugin/dva": "0.1.0",
+    "@smallfish-plugin/lint": "0.1.0",
     "umi": "^2.6.17",
     "umi-types": "~0.3.0"
   }

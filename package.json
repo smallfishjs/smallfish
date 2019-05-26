@@ -8,5 +8,9 @@
   "devDependencies": {
     "lerna": "^3.13.4",
     "umi-tools": "^0.4.0"
+  },
+  "dependencies": {
+    "@smallfish-plugin/lint": "file:/Users/yaya/work/smallfish/packages/smallfish-plugin-lint",
+    "eslint-config-smallfish": "file:/Users/yaya/work/smallfish/packages/eslint-config-smallfish"
   }
 }

@@ -31,6 +31,11 @@ const plugins = [
     configName: 'dva',
     defaultOptions: false,
   },
+  {
+    pluginName: '@smallfish-plugin/lint',
+    configName: 'lint',
+    defaultOptions: true,
+  },
 ];
 
 export default (api: IApi) => {

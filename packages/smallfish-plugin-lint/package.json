@@ -1,0 +1,11 @@
+{
+  "name": "@smallfish-plugin/lint",
+  "version": "0.1.0",
+  "main": "./lib/index.js",
+  "dependencies": {
+    "umi-lint": "^1.0.1",
+    "umi-types": "~0.3.0",
+    "yargs":"^13.2.4"
+  },
+  "license": "MIT"
+}
