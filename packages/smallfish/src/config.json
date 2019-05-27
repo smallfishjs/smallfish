@@ -34,6 +34,11 @@
       "pluginName": "@smallfish-plugin/lint",
       "configName": "lint",
       "defaultOptions": true
+    },
+    {
+      "pluginName": "@smallfish-plugin/env",
+      "configName": "env",
+      "defaultOptions": true
     }
   ]
 }

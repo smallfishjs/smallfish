@@ -7,12 +7,6 @@ const plugins = realConfig.plugins;
 
 export default (api: IApi) => {
   const { config } = api;
-  api.modifyDefaultConfig(memo => {
-    return {
-      ...memo,
-      singular: true,
-    };
-  });
 
   plugins.forEach(({ pluginName, configName, defaultOptions }) => {
     api._registerConfig(() => () => ({
