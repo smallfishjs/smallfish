@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-smallfish",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "dependencies": {
     "babel-eslint": "^10.0.1",
     "eslint-config-airbnb": "^17.1.0",
