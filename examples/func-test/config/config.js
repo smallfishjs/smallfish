@@ -19,4 +19,7 @@ export default {
     `,
   ],
   dva: true,
+  i18n: {
+    lng: 'en',
+  },
 };

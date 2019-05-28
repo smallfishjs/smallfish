@@ -1,0 +1,14 @@
+{
+  "name": "@smallfish-plugin/i18n",
+  "version": "0.1.2",
+  "main": "./lib/index.js",
+  "dependencies": {
+    "umi-types": "~0.3.0",
+    "i18next": "~15.1.3",
+    "i18next-browser-languagedetector": "~3.0.1"
+  },
+  "license": "MIT",
+  "publishConfig": {
+    "access": "public"
+  }
+}
