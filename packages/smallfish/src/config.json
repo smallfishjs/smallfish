@@ -44,6 +44,11 @@
       "pluginName": "@smallfish-plugin/i18n",
       "configName": "i18n",
       "defaultOptions": false
+    },
+    {
+      "pluginName": "@smallfish-plugin/react",
+      "configName": "react",
+      "defaultOptions": true
     }
   ]
 }
