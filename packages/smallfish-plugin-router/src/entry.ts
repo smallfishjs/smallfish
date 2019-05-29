@@ -6,6 +6,7 @@ import _Prompt from './prompt';
 import _Redirect from './redirect';
 import _Route from './route';
 import _ReactRouterDom from './reactRouterDom';
+import _withRouter from './withRouter';
 
 export const router = _router;
 export const history = _history;
@@ -15,6 +16,7 @@ export const Prompt = _Prompt;
 export const Redirect = _Redirect;
 export const Route = _Route;
 export const ReactRouterDom = _ReactRouterDom;
+export const withRouter = _withRouter;
 
 export default {
   router,
@@ -25,4 +27,5 @@ export default {
   Redirect,
   Route,
   ReactRouterDom,
+  withRouter,
 }
