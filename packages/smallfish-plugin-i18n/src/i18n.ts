@@ -2,7 +2,8 @@ import i18next from 'i18next';
 import languageDetector from 'i18next-browser-languagedetector';
 
 import resources from '@/i18n';
-import config from '@/config/config';
+
+const i18nConfig = JSON.parse(window._smallfish_i18n_config || '{}');
 
 Object.keys(resources).map(key => {
   resources[key] = {
@@ -10,7 +11,6 @@ Object.keys(resources).map(key => {
   };
 });
 
-const i18n = config.i18n || {};
 const params = {
   resources,
   fallbackLng: {
@@ -20,8 +20,8 @@ const params = {
 };
 
 // if user assign language not use auto detector
-if (i18n.lng) {
-  params.lng = i18n.lng;
+if (i18nConfig.lng || i18nConfig.language) {
+  params.lng = i18nConfig.lng || i18nConfig.language;
   i18next.init(params);
 } else {
   i18next.use(languageDetector).init(params);

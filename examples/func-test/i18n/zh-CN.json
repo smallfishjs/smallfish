@@ -7,5 +7,6 @@
   "sf_page_SubPage_Is": "是比",
   "sf_page_SubPage_Big": "大的",
   "sf_page_SubPage_DDaysHHours": "{{d}} 天 {{h}} 小时",
-  "sf_page_SubPage_IAmTestHaHa": "我是测试哈哈哈"
+  "sf_page_SubPage_IAmTestHaHa": "我是测试哈哈哈",
+  "sf_page_SubPage_INowWithTheLanguage": "我现在用的语言就是 {{iNLanguage}}"
 }

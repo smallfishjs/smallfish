@@ -18,7 +18,7 @@ const mustConfigTpl = config => {
     },
     macro: {
       path: 'i18nMust',
-      method: "i18n.get('$key$')",
+      method: "i18n.t('$key$')",
       import: "import i18n from 'smallfish/i18n'",
       keySplitter: '_',
       dependencies: [],

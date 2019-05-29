@@ -7,5 +7,6 @@
   "sf_page_SubPage_Is": "Is",
   "sf_page_SubPage_Big": "Big",
   "sf_page_SubPage_DDaysHHours": "{{d}} days {{h}} hours",
-  "sf_page_SubPage_IAmTestHaHa": "I am test ha ha ha"
+  "sf_page_SubPage_IAmTestHaHa": "I am test ha ha ha",
+  "sf_page_SubPage_INowWithTheLanguage": "I now with the language a is {{inlanguage}}"
 }
