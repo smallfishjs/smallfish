@@ -2,6 +2,15 @@ import { Alert, Icon, Button } from 'smallfish/antd';
 import { Link } from 'smallfish/router';
 import { connect } from 'smallfish/dva';
 import { PageHeader } from 'smallfish/ant-design-pro';
+import styled from 'smallfish/styled';
+
+const CustomButton = styled.div`
+  border: 1px solid #eee;
+  width: 100px;
+  height: 20px;
+  line-height: 20px;
+  text-align: center;
+`;
 
 export default connect(({ global }) => ({
   global,
@@ -19,5 +28,6 @@ export default connect(({ global }) => ({
         </Button>
       }
     />
+    <CustomButton>Custom</CustomButton>
   </div>
 ));

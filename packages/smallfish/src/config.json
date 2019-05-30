@@ -54,6 +54,11 @@
       "pluginName": "@smallfish-plugin/ant-design-pro",
       "configName": "antdpro",
       "defaultOptions": false
+    },
+    {
+      "pluginName": "@smallfish-plugin/styled",
+      "configName": "styled",
+      "defaultOptions": false
     }
   ]
 }

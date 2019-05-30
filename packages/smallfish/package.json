@@ -18,6 +18,7 @@
     "@smallfish-plugin/i18n": "^0.1.2",
     "@smallfish-plugin/react": "^0.1.2",
     "@smallfish-plugin/ant-design-pro": "^0.1.2",
+    "@smallfish-plugin/styled": "^0.1.2",
     "umi": "^2.6.17",
     "umi-types": "~0.3.0"
   }
