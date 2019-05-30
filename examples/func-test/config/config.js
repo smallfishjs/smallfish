@@ -19,6 +19,7 @@ export default {
     `,
   ],
   dva: true,
+  antdpro: true,
   i18n: {
     lng: 'en',
   },
