@@ -1,11 +1,11 @@
 {
   "name": "@smallfish-plugin/ant-design-pro",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "main": "./lib/index.js",
   "dependencies": {
     "ant-design-pro": "~2.3.2",
-    "umi-types": "~0.3.0",
-    "babel-plugin-import": "1.x"
+    "babel-plugin-import": "1.x",
+    "umi-types": "~0.3.0"
   },
   "license": "MIT",
   "publishConfig": {
