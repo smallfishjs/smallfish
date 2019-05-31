@@ -1,10 +1,17 @@
+import { dirname } from 'path';
 import { IApi } from 'umi-types';
-import { join } from 'path';
 
 export default (api: IApi) => {
+  const { cwd, compatDirname } = api;
+
   api.chainWebpackConfig(webpackConfig => {
-    webpackConfig.resolve.alias
-      .set('smallfish/request', join(__dirname, './request.js'))
-      .set('smallfish/fetch', join(__dirname, './request.js'));
+    webpackConfig.resolve.alias.set(
+      'smallfish/request',
+      compatDirname(
+        'umi-request/package.json',
+        cwd,
+        dirname(require.resolve('umi-request/package.json')),
+      ),
+    );
   });
 };
