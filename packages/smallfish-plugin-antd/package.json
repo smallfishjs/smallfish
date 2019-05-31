@@ -1,6 +1,6 @@
 {
   "name": "@smallfish-plugin/antd",
-  "version": "0.1.2",
+  "version": "0.1.5",
   "main": "./lib/index.js",
   "dependencies": {
     "antd": "3.x",

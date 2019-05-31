@@ -1,9 +1,9 @@
 {
   "name": "@smallfish-plugin/style",
-  "version": "0.1.2",
+  "version": "0.1.5",
   "main": "./lib/index.js",
   "dependencies": {
-    "@smallfish-plugin/utils": "^0.1.2",
+    "@smallfish-plugin/utils": "^0.1.5",
     "umi-types": "~0.3.0"
   },
   "license": "MIT",

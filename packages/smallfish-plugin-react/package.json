@@ -1,6 +1,6 @@
 {
   "name": "@smallfish-plugin/react",
-  "version": "0.1.3",
+  "version": "0.1.5",
   "main": "./lib/index.js",
   "dependencies": {
     "react": "^16.6.3",
