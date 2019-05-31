@@ -1,6 +1,6 @@
 {
   "name": "@smallfish-plugin/request",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "main": "./lib/index.js",
   "dependencies": {
     "umi-request": "~1.0.7",
