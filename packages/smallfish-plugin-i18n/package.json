@@ -15,5 +15,9 @@
     "browserFiles": [
       "src/i18n.ts"
     ]
-  }
+  },
+  "files": [
+    "lib",
+    "src"
+  ]
 }

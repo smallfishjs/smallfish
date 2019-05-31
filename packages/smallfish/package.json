@@ -21,5 +21,10 @@
     "@smallfish-plugin/utils": "^0.1.2",
     "umi": "^2.6.17",
     "umi-types": "~0.3.0"
-  }
+  },
+  "files": [
+    "bin",
+    "lib",
+    "src"
+  ]
 }

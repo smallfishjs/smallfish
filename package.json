@@ -2,7 +2,8 @@
   "private": true,
   "scripts": {
     "bootstrap": "lerna bootstrap",
-    "build": "umi-tools build"
+    "build": "umi-tools build",
+    "pub": "yarn build && lerna publish"
   },
   "license": "MIT",
   "devDependencies": {
