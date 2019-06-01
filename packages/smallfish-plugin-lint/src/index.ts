@@ -16,7 +16,9 @@ export default (api: IApi, options = {}) => {
       if (!argv.prettier && !argv.eslint && !argv.tslint && !argv.stylelint) {
         args.unshift('--eslint');
       }
-      if (!argv.staged) {
+
+      // 如果非 staged 模式，并且没有指定路径，默认扫描全部
+      if (!argv.staged && argv._.length === 1) {
         args.push(join(cwd, '**'));
       }
       const child = fork(lint, args, {
