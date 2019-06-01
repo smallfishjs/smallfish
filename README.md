@@ -15,7 +15,7 @@ Smallfish is an out-of-the-box React framework based on [umi](https://umijs.org/
 
 ## usage
 
-note! It is still under development and can be tested by [Scaffolding] (https://github.com/smallfishjs/smallfish-boilerplates-management-system).
+note! It is still under development and can be tested by [Scaffolding](https://github.com/smallfishjs/smallfish-boilerplates-management-system).
 
 ```
 $ npm install smallfish
