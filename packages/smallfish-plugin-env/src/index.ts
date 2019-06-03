@@ -15,6 +15,7 @@ export default (api: IApi, options = {}) => {
   api.modifyDefaultConfig(memo => {
     return {
       ...memo,
+      history: 'hash',
       singular: true,
     };
   });
