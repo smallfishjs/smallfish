@@ -3,6 +3,7 @@ import { Link } from 'smallfish/router';
 import { connect } from 'smallfish/dva';
 import { PageHeader } from 'smallfish/ant-design-pro';
 import styled from 'smallfish/styled';
+import styles from './index.less';
 
 const CustomButton = styled.div`
   border: 1px solid #eee;
@@ -15,7 +16,7 @@ const CustomButton = styled.div`
 export default connect(({ global }) => ({
   global,
 }))(props => (
-  <div>
+  <div className={styles.header}>
     <Alert message={props.global.slogan} />
     <Link to="/2">to 2</Link>
     <PageHeader
