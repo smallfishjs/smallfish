@@ -18,7 +18,7 @@
     "@smallfish-plugin/script": "^0.1.5",
     "@smallfish-plugin/style": "^0.1.5",
     "@smallfish-plugin/styled": "^0.1.5",
-    "@smallfish-plugin/utils": "^0.1.5",
+    "@smallfish-plugin/util": "^0.1.5",
     "umi": "^2.6.17",
     "umi-types": "~0.3.0"
   },
