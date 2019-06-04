@@ -59,6 +59,11 @@
       "pluginName": "@smallfish-plugin/styled",
       "configName": "styled",
       "defaultOptions": false
+    },
+    {
+      "pluginName": "@smallfish-plugin/util",
+      "configName": "util",
+      "defaultOptions": true
     }
   ]
 }

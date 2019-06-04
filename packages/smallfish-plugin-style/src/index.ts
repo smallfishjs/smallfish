@@ -1,9 +1,9 @@
 import { IApi } from 'umi-types';
-import { isUrl } from '@smallfish-plugin/utils';
 
 export type StyleConfig = Array<string>;
 
 export default function(api: IApi, option: StyleConfig) {
+  const isUrl = (url: string) => /^(http:|https:)?\/\//.test(url);
   api.onOptionChange(newOption => {
     option = newOption;
     api.rebuildHTML();
