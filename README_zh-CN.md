@@ -1,5 +1,7 @@
 # smallfish
 
+[![NPM version](https://img.shields.io/npm/v/smallfish.svg?style=flat)](https://npmjs.org/package/smallfish)
+
 [English](./README.md) | 中文
 
 smallfish 是基于 [umi](https://umijs.org/) 的开箱即用的 React 框架。smallfish 内置了很多开发工具及功能库，通过约定的方式让使用者只需关注到要开发的业务，而不需要在底层工具及配置上纠结及消耗能量，一切都很轻松。
