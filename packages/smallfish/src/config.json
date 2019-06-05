@@ -64,6 +64,11 @@
       "pluginName": "@smallfish-plugin/util",
       "configName": "util",
       "defaultOptions": true
+    },
+    {
+      "pluginName": "@smallfish-plugin/mf",
+      "configName": "mf",
+      "defaultOptions": false
     }
   ]
 }
