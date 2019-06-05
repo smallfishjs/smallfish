@@ -21,7 +21,5 @@ export default {
   dva: true,
   antdpro: true,
   styled: true,
-  i18n: {
-    lng: 'en',
-  },
+  i18n: true,
 };
