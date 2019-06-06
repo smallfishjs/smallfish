@@ -8,25 +8,25 @@ export default (api: IApi, options: { tagName: string }) => {
   api.modifyEntryRender(``)
 
   api.addEntryCode(`
-    class SmallfishEl extends HTMLElement {
-      constructor() {
-        super()
-      }
-      connectedCallback() {
-        const rootContainer = window.g_plugins.apply('rootContainer', {
-          initialValue: React.createElement(require('./router').default),
-        });
-        ReactDOM.render(
-          rootContainer,
-          this,
-        );
-      }
-      disconnectedCallback() {
-        ReactDOM.unmountComponentAtNode(this);
-      }
-      attributeChangedCallback() {}
-    }
-    customElements.define('${options.tagName}', SmallfishEl);
+class SmallfishEl extends HTMLElement {
+  constructor() {
+    super()
+  }
+  connectedCallback() {
+    const rootContainer = plugins.apply('rootContainer', {
+      initialValue: React.createElement(require('./router').default),
+    });
+    ReactDOM.render(
+      rootContainer,
+      this,
+    );
+  }
+  disconnectedCallback() {
+    ReactDOM.unmountComponentAtNode(this);
+  }
+  attributeChangedCallback() {}
+}
+customElements.define('${options.tagName}', SmallfishEl);
   `)
 
   api.modifyHTMLWithAST(($) => {
