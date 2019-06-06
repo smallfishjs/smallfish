@@ -1,6 +1,11 @@
 {
   "plugins": [
     {
+      "pluginName": "@smallfish-plugin/env",
+      "configName": "env",
+      "defaultOptions": true
+    },
+    {
       "pluginName": "@smallfish-plugin/script",
       "configName": "script",
       "defaultOptions": false
@@ -33,11 +38,6 @@
     {
       "pluginName": "@smallfish-plugin/lint",
       "configName": "lint",
-      "defaultOptions": true
-    },
-    {
-      "pluginName": "@smallfish-plugin/env",
-      "configName": "env",
       "defaultOptions": true
     },
     {
