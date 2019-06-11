@@ -1,6 +1,6 @@
 {
   "name": "@smallfish-plugin/mf",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "main": "./lib/index.js",
   "dependencies": {
     "umi-types": "~0.3.0"
