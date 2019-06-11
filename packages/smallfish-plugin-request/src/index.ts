@@ -8,9 +8,17 @@ export default (api: IApi) => {
     webpackConfig.resolve.alias.set(
       'smallfish/request',
       compatDirname(
-        'umi-request/package.json',
+        'axios/package.json',
         cwd,
-        dirname(require.resolve('umi-request/package.json')),
+        dirname(require.resolve('axios/package.json')),
+      ),
+    );
+    webpackConfig.resolve.alias.set(
+      'smallfish/fetch',
+      compatDirname(
+        'axios/package.json',
+        cwd,
+        dirname(require.resolve('axios/package.json')),
       ),
     );
   });
