@@ -69,6 +69,11 @@
       "pluginName": "@smallfish-plugin/mf",
       "configName": "mf",
       "defaultOptions": false
+    },
+    {
+      "pluginName": "@smallfish-plugin/dcc",
+      "configName": "dcc",
+      "defaultOptions": false
     }
   ]
 }
