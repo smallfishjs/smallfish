@@ -19,7 +19,7 @@
     "@smallfish-plugin/style": "^0.1.6",
     "@smallfish-plugin/styled": "^0.1.5",
     "@smallfish-plugin/util": "^0.1.6",
-    "@smallfish-plugin/mf": "^0.0.1",
+    "@smallfish-plugin/mf": "^0.1.0",
     "umi": "^2.6.17",
     "umi-types": "~0.3.0"
   },
