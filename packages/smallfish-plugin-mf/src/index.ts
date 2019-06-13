@@ -1,12 +1,20 @@
 import { IApi } from 'umi-types';
 import postcssPluginNamespace from 'postcss-plugin-namespace';
 
-export default (api: IApi, options: { tagName: string }) => {
+function importPlugin(tagName) {
+  return [
+    require.resolve(
+      '@quickbaseoss/babel-plugin-styled-components-css-namespace',
+    ),
+    { cssNamespace: '#' + tagName },
+  ];
+}
 
+export default (api: IApi, options: { tagName: string }) => {
   if (!/^\w+-\w+/.test(options.tagName)) {
-    throw new Error("invalid tagName for custom element")
+    throw new Error('invalid tagName for custom element');
   }
-  api.modifyEntryRender(``)
+  api.modifyEntryRender(``);
 
   api.addEntryCode(`
 class SmallfishEl extends HTMLElement {
@@ -28,30 +36,32 @@ class SmallfishEl extends HTMLElement {
   attributeChangedCallback() {}
 }
 customElements.define('${options.tagName}', SmallfishEl);
-  `)
+  `);
 
-  api.modifyHTMLWithAST(($) => {
-    $('body').prepend(`<div id="${options.tagName}"><${options.tagName}/></div>`);
+  api.modifyHTMLWithAST($ => {
+    $('body').prepend(
+      `<div id="${options.tagName}"><${options.tagName}/></div>`,
+    );
     $('#root').remove();
   });
 
-  api.modifyDefaultConfig(memo => {
-    const postCssPlugin = [
-      postcssPluginNamespace(`#${options.tagName}`)
-    ]
-    const extraPostCSSPlugins = ((memo as any).extraPostCSSPlugin || []).concat(postCssPlugin);
+  api.modifyAFWebpackOpts(opts => {
+    opts.babel.plugins = [
+      ...(opts.babel.plugins || []),
+      importPlugin(options.tagName),
+    ];
+    return opts;
+  });
 
-    const babalPlugin = [
-      ["@quickbaseoss/babel-plugin-styled-components-css-namespace", {"cssNamespace": "#"+options.tagName}]
-    ]
-    const extraBabelPlugins = ((memo as any).extraBabelPlugins || []).concat(babalPlugin)
+  api.modifyDefaultConfig(memo => {
+    const postCssPlugin = [postcssPluginNamespace(`#${options.tagName}`)];
+    const extraPostCSSPlugins = ((memo as any).extraPostCSSPlugin || []).concat(
+      postCssPlugin,
+    );
 
     return {
       ...memo,
       extraPostCSSPlugins,
-      extraBabelPlugins
-    }
+    };
   });
-
-
-}
+};
