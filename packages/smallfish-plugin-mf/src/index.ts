@@ -1,4 +1,5 @@
 import { IApi } from 'umi-types';
+import postcssPluginNamespace from 'postcss-plugin-namespace';
 
 export default (api: IApi, options: { tagName: string }) => {
 
@@ -30,7 +31,27 @@ customElements.define('${options.tagName}', SmallfishEl);
   `)
 
   api.modifyHTMLWithAST(($) => {
-    $('body').prepend(`<${options.tagName}/>`);
+    $('body').prepend(`<div id="${options.tagName}"><${options.tagName}/></div>`);
     $('#root').remove();
   });
+
+  api.modifyDefaultConfig(memo => {
+    const postCssPlugin = [
+      postcssPluginNamespace(`#${options.tagName}`)
+    ]
+    const extraPostCSSPlugins = ((memo as any).extraPostCSSPlugin || []).concat(postCssPlugin);
+
+    const babalPlugin = [
+      ["@quickbaseoss/babel-plugin-styled-components-css-namespace", {"cssNamespace": "#"+options.tagName}]
+    ]
+    const extraBabelPlugins = ((memo as any).extraBabelPlugins || []).concat(babalPlugin)
+
+    return {
+      ...memo,
+      extraPostCSSPlugins,
+      extraBabelPlugins
+    }
+  });
+
+
 }

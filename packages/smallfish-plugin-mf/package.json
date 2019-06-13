@@ -1,10 +1,7 @@
 {
   "name": "@smallfish-plugin/mf",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "main": "./lib/index.js",
-  "dependencies": {
-    "umi-types": "~0.3.0"
-  },
   "license": "MIT",
   "publishConfig": {
     "access": "public"
@@ -12,5 +9,10 @@
   "files": [
     "lib",
     "src"
-  ]
+  ],
+  "dependencies": {
+    "@quickbaseoss/babel-plugin-styled-components-css-namespace": "^1.0.0-rc2",
+    "postcss-plugin-namespace": "0.0.2",
+    "umi-types": "~0.3.0"
+  }
 }
