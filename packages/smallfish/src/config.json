@@ -1,6 +1,11 @@
 {
   "plugins": [
     {
+      "pluginName": "@smallfish-plugin/env",
+      "configName": "env",
+      "defaultOptions": true
+    },
+    {
       "pluginName": "@smallfish-plugin/script",
       "configName": "script",
       "defaultOptions": false
@@ -36,11 +41,6 @@
       "defaultOptions": true
     },
     {
-      "pluginName": "@smallfish-plugin/env",
-      "configName": "env",
-      "defaultOptions": true
-    },
-    {
       "pluginName": "@smallfish-plugin/i18n",
       "configName": "i18n",
       "defaultOptions": false
@@ -68,6 +68,11 @@
     {
       "pluginName": "@smallfish-plugin/mf",
       "configName": "mf",
+      "defaultOptions": false
+    },
+    {
+      "pluginName": "@smallfish-plugin/dcc",
+      "configName": "dcc",
       "defaultOptions": false
     }
   ]

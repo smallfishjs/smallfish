@@ -12,9 +12,11 @@ export default (api: IApi, options = {}) => {
       process.env.PORT = 7001;
     }
   }
+  api.config.disableGlobalVariables = true;
   api.modifyDefaultConfig(memo => {
     return {
       ...memo,
+      disableGlobalVariables: true,
       history: 'hash',
       singular: true,
     };

@@ -1,6 +1,6 @@
 {
   "name": "smallfish",
-  "version": "0.1.6",
+  "version": "0.1.7",
   "bin": {
     "smallfish": "bin/smallfish.js"
   },
@@ -8,19 +8,20 @@
   "dependencies": {
     "@smallfish-plugin/ant-design-pro": "^0.1.5",
     "@smallfish-plugin/antd": "^0.1.5",
-    "@smallfish-plugin/dva": "^0.1.5",
-    "@smallfish-plugin/env": "^0.1.6",
-    "@smallfish-plugin/i18n": "^0.1.5",
+    "@smallfish-plugin/dcc": "^0.1.6",
+    "@smallfish-plugin/dva": "^0.1.6",
+    "@smallfish-plugin/env": "^0.1.7",
+    "@smallfish-plugin/i18n": "^0.1.6",
     "@smallfish-plugin/lint": "^0.1.6",
+    "@smallfish-plugin/mf": "^0.1.0",
     "@smallfish-plugin/react": "^0.1.5",
-    "@smallfish-plugin/request": "^0.1.5",
+    "@smallfish-plugin/request": "^0.1.6",
     "@smallfish-plugin/router": "^0.1.5",
     "@smallfish-plugin/script": "^0.1.5",
     "@smallfish-plugin/style": "^0.1.6",
     "@smallfish-plugin/styled": "^0.1.5",
     "@smallfish-plugin/util": "^0.1.6",
-    "@smallfish-plugin/mf": "^0.1.0",
-    "umi": "^2.6.17",
+    "umi": "^2.7.1",
     "umi-types": "~0.3.0"
   },
   "files": [

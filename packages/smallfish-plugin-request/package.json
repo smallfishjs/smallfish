@@ -1,9 +1,9 @@
 {
   "name": "@smallfish-plugin/request",
-  "version": "0.1.5",
+  "version": "0.1.6",
   "main": "./lib/index.js",
   "dependencies": {
-    "umi-request": "~1.0.7",
+    "axios": "^0.19.0",
     "umi-types": "~0.3.0"
   },
   "license": "MIT",
