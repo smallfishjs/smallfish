@@ -21,5 +21,10 @@ export default {
   dva: true,
   antdpro: true,
   styled: true,
-  i18n: true,
+  i18n: {
+    lng: 'en',
+    debug: true,
+    keySeparator: true,
+    nsSeparator: true,
+  },
 };
