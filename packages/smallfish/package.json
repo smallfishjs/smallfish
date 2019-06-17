@@ -27,6 +27,8 @@
   "files": [
     "bin",
     "lib",
-    "src"
+    "src",
+    "stylelint",
+    "tslint"
   ]
 }
