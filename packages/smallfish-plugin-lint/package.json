@@ -4,7 +4,7 @@
   "main": "./lib/index.js",
   "dependencies": {
     "eslint-config-smallfish": "^0.1.6",
-    "umi-lint": "^1.0.1",
+    "umi-lint": "^2.0.2",
     "umi-types": "~0.3.0",
     "yargs": "^13.2.4"
   },
