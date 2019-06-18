@@ -1,6 +1,6 @@
 {
   "name": "@smallfish-plugin/router",
-  "version": "0.1.5",
+  "version": "0.1.6",
   "main": "./lib/index.js",
   "dependencies": {
     "react-router-redux": "^4.0.8",

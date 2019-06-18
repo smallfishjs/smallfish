@@ -1,6 +1,6 @@
 {
   "name": "@smallfish-plugin/lint",
-  "version": "0.1.6",
+  "version": "0.1.7",
   "main": "./lib/index.js",
   "dependencies": {
     "eslint-config-smallfish": "^0.1.6",

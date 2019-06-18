@@ -1,6 +1,6 @@
 {
   "name": "smallfish",
-  "version": "0.1.8",
+  "version": "0.1.9",
   "bin": {
     "smallfish": "bin/smallfish.js"
   },
@@ -11,12 +11,12 @@
     "@smallfish-plugin/dcc": "^0.1.6",
     "@smallfish-plugin/dva": "^0.1.6",
     "@smallfish-plugin/env": "^0.1.7",
-    "@smallfish-plugin/i18n": "^0.1.6",
-    "@smallfish-plugin/lint": "^0.1.6",
-    "@smallfish-plugin/mf": "^0.1.0",
+    "@smallfish-plugin/i18n": "^0.1.7",
+    "@smallfish-plugin/lint": "^0.1.7",
+    "@smallfish-plugin/mf": "^0.1.1",
     "@smallfish-plugin/react": "^0.1.5",
     "@smallfish-plugin/request": "^0.1.6",
-    "@smallfish-plugin/router": "^0.1.5",
+    "@smallfish-plugin/router": "^0.1.6",
     "@smallfish-plugin/script": "^0.1.5",
     "@smallfish-plugin/style": "^0.1.6",
     "@smallfish-plugin/styled": "^0.1.5",
