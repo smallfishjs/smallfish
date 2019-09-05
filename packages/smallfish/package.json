@@ -21,7 +21,7 @@
     "@smallfish-plugin/style": "^0.1.6",
     "@smallfish-plugin/styled": "^0.1.5",
     "@smallfish-plugin/util": "^0.1.6",
-    "umi": "^2.7.1",
+    "umi": "^2.9.3",
     "umi-types": "~0.3.0"
   },
   "files": [

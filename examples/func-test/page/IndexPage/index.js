@@ -21,7 +21,7 @@ export default connect(({ global }) => ({
     <Link to="/2">to 2</Link>
     <PageHeader
       title="Hello smallfish"
-      breadcrumbList={[{ title: 'ttest' }]}
+      breadcrumbList={[{ title: 'test' }]}
       action={
         <Button type="primary">
           <Icon type="plus" />
