@@ -4,7 +4,7 @@
   "main": "./lib/index.js",
   "dependencies": {
     "umi-types": "~0.3.0",
-    "yargs-parser": "13.1.0"
+    "yargs-parser": "13.1.2"
   },
   "license": "MIT",
   "publishConfig": {
