@@ -64,11 +64,6 @@ debug@=3.1.0:
   dependencies:
     ms "2.0.0"
 
-decode-uri-component@^0.2.0:
-  version "0.2.0"
-  resolved "https://registry.npm.taobao.org/decode-uri-component/download/decode-uri-component-0.2.0.tgz#eb3913333458775cb84cd1a1fae062106bb87545"
-  integrity sha1-6zkTMzRYd1y4TNGh+uBiEGu4dUU=
-
 deepmerge@^1.5.2:
   version "1.5.2"
   resolved "https://registry.npm.taobao.org/deepmerge/download/deepmerge-1.5.2.tgz#10499d868844cdad4fee0842df8c7f6f0c95a753"
@@ -96,37 +91,10 @@ ms@2.0.0:
   resolved "https://registry.npm.taobao.org/ms/download/ms-2.0.0.tgz#5608aeadfc00be6c2901df5f9861788de0d597c8"
   integrity sha1-VgiurfwAvmwpAd9fmGF4jeDVl8g=
 
-query-string@^6.0.0:
-  version "6.5.0"
-  resolved "https://registry.npm.taobao.org/query-string/download/query-string-6.5.0.tgz#2e1a70125af01f6f04573692d02c09302a1d8bfc"
-  integrity sha1-LhpwElrwH28EVzaS0CwJMCodi/w=
-  dependencies:
-    decode-uri-component "^0.2.0"
-    split-on-first "^1.0.0"
-    strict-uri-encode "^2.0.0"
-
 source-map@^0.6.0, source-map@^0.6.1:
   version "0.6.1"
   resolved "https://registry.npm.taobao.org/source-map/download/source-map-0.6.1.tgz?cache=0&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Fsource-map%2Fdownload%2Fsource-map-0.6.1.tgz#74722af32e9614e9c287a8d0bbde48b5e2f1a263"
   integrity sha1-dHIq8y6WFOnCh6jQu95IteLxomM=
-
-split-on-first@^1.0.0:
-  version "1.1.0"
-  resolved "https://registry.npm.taobao.org/split-on-first/download/split-on-first-1.1.0.tgz#f610afeee3b12bce1d0c30425e76398b78249a5f"
-  integrity sha1-9hCv7uOxK84dDDBCXnY5i3gkml8=
-
-strict-uri-encode@^2.0.0:
-  version "2.0.0"
-  resolved "https://registry.npm.taobao.org/strict-uri-encode/download/strict-uri-encode-2.0.0.tgz#b9c7330c7042862f6b142dc274bbcc5866ce3546"
-  integrity sha1-ucczDHBChi9rFC3CdLvMWGbONUY=
-
-umi-request@~1.0.7:
-  version "1.0.7"
-  resolved "https://registry.npm.taobao.org/umi-request/download/umi-request-1.0.7.tgz#54a28e7819202b5e53930297a6b66ad500e75b2a"
-  integrity sha1-VKKOeBkgK15TkwKXprZq1QDnWyo=
-  dependencies:
-    query-string "^6.0.0"
-    whatwg-fetch "^2.0.0"
 
 umi-types@~0.3.0:
   version "0.3.5"
@@ -144,8 +112,3 @@ webpack-chain@*:
   dependencies:
     deepmerge "^1.5.2"
     javascript-stringify "^2.0.0"
-
-whatwg-fetch@^2.0.0:
-  version "2.0.4"
-  resolved "https://registry.npm.taobao.org/whatwg-fetch/download/whatwg-fetch-2.0.4.tgz#dde6a5df315f9d39991aa17621853d720b85566f"
-  integrity sha1-3eal3zFfnTmZGqF2IYU9cguFVm8=
